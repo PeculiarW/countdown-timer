@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(ppp.png);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+
+}
+.content{
+    text-align: left;
+    padding-top: 20%;
+    padding-bottom: 20px;
+}
+.content p{
+  color: rgb(104, 78, 78);
+  font-size: larger;
+}
+
+.content h1{
+    font-size: 40px;
+}
+.content h1 span{
+    color: blueviolet;
+
+}
+button{
+    background: transparent;
+    border: 2px solid blueviolet;
+    padding: 12px 25px;
+    outline: none;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.launch-time{
+    display: flex;
+}
+
+.launch-time div{
+    flex-basis: 100px;
+}
+
+.launch-time div p{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.logo{
+    width: 140px;
+    position: absolute;
+    right: 40%;
+    top: 30%;
+    bottom: 0;
+    animation: logo 5s infinite;
+}
+
+@keyframes logo {
+    0%{bottom: 0;
+       opacity: 0;
+    }
+    100%{
+        bottom: 50%;
+        opacity: 1;
+    }
+    
+ 
+}
+.whatsapp{
+   width: 31px;
+   position: absolute;
+   padding-left: 40px;
+   padding-top: 18px;
+   cursor: pointer;
+}
+
+.pinterest{
+    width: 26px;
+    position: absolute;
+    padding: 10px;
+    padding-left: 6%;
+    padding-top: 22px;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.insta{
+    position: absolute;
+    width: 27px;
+    padding-top: 20px;
+    cursor: pointer;
+}
